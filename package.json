@@ -1,0 +1,45 @@
+{
+  "name": "sample-proj",
+  "version": "1.0.0",
+  "description": "Sample Proj to show error",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "execute some test"
+  },
+  "keywords": [
+    "angular",
+    "client"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.5.7",
+    "browserify": "^13.0.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-derequire": "^2.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.7",
+    "karma": "^0.13.22",
+    "karma-bamboo-reporter": "^0.1.2",
+    "karma-browserify": "^5.0.5",
+    "karma-chai-plugins": "^0.7.0",
+    "karma-coverage": "^1.0.0",
+    "karma-mocha": "^1.0.1",
+    "karma-mocha-reporter": "^2.0.4",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.7",
+    "vinyl-source-stream": "^1.1.0",
+    "wallabify": "0.0.14",
+    "watchify": "^3.7.0",
+    "wrench": "^1.5.9"
+  },
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}
