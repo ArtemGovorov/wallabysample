@@ -3,7 +3,9 @@ var applicationPath = 'src/main/javascript/';
 var testPath = 'src/test/javascript/';
 
 var wallabify = require('wallabify');
-var wallabyPostprocessor = wallabify({});
+var wallabyPostprocessor = wallabify({
+  entryPatterns: [applicationPath + '**/*.js', testPath + '**/*.js']
+});
 
 module.exports = function (wallaby) {
   return {
